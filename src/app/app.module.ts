@@ -11,7 +11,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatTableModule} from '@angular/material/table';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatSortModule} from '@angular/material/sort';
-
+import { NgxMaskModule, IConfig } from 'ngx-mask'
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,9 @@ import {MatSortModule} from '@angular/material/sort';
     MatButtonModule,
     MatTableModule,
     MatGridListModule,
-    MatSortModule
+    MatSortModule,
+    NgxMaskModule.forRoot(),
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent],

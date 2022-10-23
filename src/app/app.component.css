@@ -27,3 +27,7 @@ mat-card{
 .esquerda{
     margin-right: 2%;
 }
+
+.col-1 {
+    width: 30px;
+}
