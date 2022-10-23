@@ -1,0 +1,29 @@
+mat-card{
+    margin: 15px 15%;
+}
+
+.formulario-pessoa{
+    width: 100%;
+}
+
+.botoes-formulario{
+    width: 30%;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.botoes-formulario button{
+    margin-left: 5px;
+}
+
+.tabela-pessoas{
+    width: 100%;
+}
+
+.input-pessoa{
+    width: 48%;
+}
+
+.esquerda{
+    margin-right: 2%;
+}
